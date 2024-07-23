@@ -1,0 +1,65 @@
+.superadmin-container {
+    padding: 20px;
+  }
+  
+  .admin-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admin-table th,
+  .admin-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .admin-table th {
+    background-color: #f2f2f2;
+  }
+  h1{
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  .action-icons {
+    text-align: center;
+  }
+  
+  .action-icons i {
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .action-icons .fa-pen {
+    color: #007bff;
+  }
+  
+  .action-icons .fa-trash {
+    color: #dc3545;
+  }
+  .fa-pen{
+    margin-right: 1rem;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    cursor: pointer;
+  }
+  
+  .pagination button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .pagination button:hover {
+    background-color: #e2e6ea;
+  }
+  

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  white;
+}
+.login{
+    width: 400px;
+    background: #b9edec;
+    color: #333;
+    border-radius: 8px;
+    padding: 30px 30px;
+    border: 3px solid rgba(50, 45, 45, 0.3);
+}
+.login h2{
+    font-size: 37px;
+    text-align: center;
+    font-weight: 550;
+}
+.login .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 23px 0 0 2px;
+}
+.login .input-box label{
+    color: #333;
+    font-weight: 400;
+}
+.input-box input{
+    height: 90%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(50, 45, 45, 0.3);
+    border-radius: 10px;
+    color: #333;
+    font-size: 15px;
+    padding: 20px 10px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #333;
+}
+.input-box .icon{
+    position: absolute;
+    left: 90%;
+    top: 32px;
+    font-size: 17px;
+}
+.login .rem-for{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 5px;
+}
+.rem-for label {
+    color: #333;
+    font-weight: 400;
+}
+.rem-for label input{
+    margin-right: 3px;
+}
+.rem-for a{
+    color: #333;
+    text-decoration: none;
+}
+.rem-for a:hover{
+    text-decoration: underline;
+}
+.login .btn{
+   height: 38px;
+   width: 35%; 
+   margin:15px 33%;
+   color: #333;
+   border: none;
+   border-radius: 10px;
+   font-size: 16px; 
+   font-weight: 700;
+}
+.login .register-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 8px;
+    color: #333;
+    justify-content: space-between;
+}
+.register-link .r{
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.register-link .r:hover{
+    text-decoration: underline;
+}

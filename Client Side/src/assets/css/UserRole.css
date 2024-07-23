@@ -1,0 +1,65 @@
+.body{
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    height: 100vh;
+}
+
+.userid1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline;
+    width: 30%;
+    margin: auto;
+    padding: 20px;
+    color: #0bd3b1;
+    justify-content: center;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.roleForm {
+    background-color: #efe5e5;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+    /* justify-content: center; */
+    box-shadow: 0 0 15px rgba(75, 72, 72, 0.1);
+    width: 350px;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #0bd3b1;
+}
+
+.username, select {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submitbtn_role {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submitbtn__role:hover {
+    background-color: #3ba288;
+    transition-delay: 0.4ms;
+}

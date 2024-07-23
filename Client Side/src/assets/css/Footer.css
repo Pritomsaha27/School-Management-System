@@ -1,0 +1,22 @@
+.footer_bg {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #949494;
+    color: #fff;
+    padding: 10px 0;
+}
+  
+  .container {
+    max-width: 100%; 
+    margin: 0 auto; 
+    padding: 50 15px; 
+  }
+  
+  .footer-logo {
+    color: #000000; 
+    font-weight: bold;
+    text-decoration: none; 
+    font-weight: bold; 
+  }

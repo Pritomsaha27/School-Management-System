@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:  white;
+}
+.register{
+    height: 620px;
+    width: 400px;
+    background: #b9edec;
+    color: #333;
+    border-radius: 8px;
+    padding: 30px 30px;
+    border: 3px solid rgba(50, 45, 45, 0.3);
+}
+.register h2{
+    font-size: 35px;
+    text-align: center;
+}
+.register .label-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 23px 0 0 2px;
+    
+}
+.register .label-box label{
+    color: #333;
+    font-weight: 400;
+}
+.label-box input{
+    height: 90%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(50, 45, 45, 0.3);
+    border-radius: 10px;
+    color: #333;
+    font-size: 15px;
+    padding: 20px 10px 20px 20px;
+}
+.label-box input::placeholder{
+    color: #333;
+}
+.label-box .icon{
+    position: absolute;
+    left: 90%;
+    top: 32px;
+    font-size: 17px;
+}
+.register .term{
+    display: flex;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.term label {
+    color: #333;
+    font-weight: 400;
+}
+.term label input{
+    margin-right: 4px;
+}
+.register .btn{
+   height: 38px;
+   width: 40%; 
+   margin:20px 32%;
+   color: #333;
+   border: none;
+   border-radius: 10px;
+   font-size: 16px; 
+   font-weight: 700;
+}
+.register .login-link{
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+    color: #333;
+}
+.login-link .r{
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+.login-link .r:hover{
+    text-decoration: underline;
+}
