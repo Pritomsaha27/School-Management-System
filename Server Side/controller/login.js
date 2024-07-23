@@ -1,6 +1,6 @@
 const User = require("../models/user");
 
-// Login API [By Pritom]
+// Login API 
 exports.UserLogin = async (req, res) => {
   const { UserName, Password } = req.body;
   try {
@@ -19,7 +19,7 @@ exports.UserLogin = async (req, res) => {
   }
 };
 
-// Login API [By Pritom]
+// Login API 
 exports.Test = async (req, res) => {
   res.status(200).json({ message: "Connected Succesfully" });
 };

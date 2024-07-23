@@ -2,7 +2,7 @@ const User = require("../models/user");
 const Teacher = require("../models/teacher");
 const Admin = require("../models/admin");
 const Role = require("../models/role");
-// Check username [By Sayani] [fixes all Errors]
+// Check username  [fixes all Errors]
 exports.ValidateUserID = async (req, res) => {
     const { UserName } = req.body;
     try {
@@ -18,7 +18,7 @@ exports.ValidateUserID = async (req, res) => {
     }
   };
 
-  // Check Email [By Chaitali] [fixes all Errors] [modified]
+  // Check Email  [fixes all Errors] [modified]
 exports.ValidateEmail = async (req, res) => {
   const { Email } = req.body;
   try {
@@ -34,7 +34,7 @@ exports.ValidateEmail = async (req, res) => {
   }
 };
 
-  // Check PhoneNumber [By Chaitali] [fixes all Errors] [modified]
+  // Check PhoneNumber  [fixes all Errors] [modified]
   exports.ValidatePhone = async (req, res) => {
     const { PhoneNumber } = req.body;
     try {
@@ -50,7 +50,7 @@ exports.ValidateEmail = async (req, res) => {
     }
   };
 
-//Show All Teachers From Teachers Collection [By Pritom] 
+//Show All Teachers From Teachers Collection 
 
 exports.ValidateTeacher = async (req, res) => {
   try {
@@ -64,7 +64,7 @@ exports.ValidateTeacher = async (req, res) => {
   }
 };
 
-//Show All Admins From Admins Collection [By Pritom] 
+//Show All Admins From Admins Collection
 
 exports.ValidateAdmin = async (req, res) => {
   try {
@@ -78,7 +78,7 @@ exports.ValidateAdmin = async (req, res) => {
   }
 };
 
-//Show All Users  From Roles Collection [By Ishita] /* NEW */
+//Show All Users  From Roles Collection  /* NEW */
 
 exports.ValidateRoleTable = async (req, res) => {
   try {
@@ -94,7 +94,7 @@ exports.ValidateRoleTable = async (req, res) => {
 
 
 
-// Signup API [By Pritom]
+// Signup API 
 exports.UserSignup = async (req, res) => {
   const newUser = new User(req.body);
   try {

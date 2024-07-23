@@ -3,7 +3,7 @@ const Admin = require("../models/admin");
 const SuperAdmin = require("../models/supadmin");
 const Teacher = require("../models/teacher");
 const Role = require("../models/role");
-// Assignrole [By Pritom]
+// Assignrole 
 exports.AssignRole = async (req, res) => {
   const { UserName, role } = req.body;
 

@@ -1,6 +1,6 @@
 const Student = require("../models/student.js");
 
-// Student signup [By Shreya] [fixes all Errors]
+// Student signup  [fixes all Errors]
 exports.StudentSignup = async (req, res) => {
   const newStudent = new Student(req.body);
   try {
@@ -16,7 +16,7 @@ exports.StudentSignup = async (req, res) => {
 };
 
 
-//Show All Students From Students Collection [By Ishita] /* NEW */
+//Show All Students From Students Collection  /* NEW */
 
 exports.ValidateStudent = async (req, res) => {
   try {
@@ -31,7 +31,7 @@ exports.ValidateStudent = async (req, res) => {
 };
 
 
-// shreya 
+// Validation Basis Of Class Section
     exports.ValidateClassSec = async (req, res) => {
   try {
       const { Class, Section } = req.body;
